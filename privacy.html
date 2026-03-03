@@ -70,8 +70,14 @@
         <h2>6. Guest Mode</h2>
         <p>You may use the App in Guest Mode with limited functionality. Guest Mode uses Firebase Anonymous Authentication. If you choose to create an account later, your guest data will be linked to your new account. If you do not create an account, guest data may be automatically deleted after a period of inactivity.</p>
 
-        <h2>7. AI Processing</h2>
-        <p>When you use AI features, your meeting audio and content are sent to Google Gemini AI for processing. We do not use your data to train AI models. AI processing is performed on-demand, and processed content is stored in your private Firestore account.</p>
+        <h2>7. AI Data Processing</h2>
+        <p>ClientVault AI uses Google Gemini (provided by Google LLC) to analyze user-submitted content including notes, transcripts, uploaded files, and audio recordings. This processing enables features such as AI-generated summaries, action items, and insights.</p>
+        <ul>
+            <li><strong>What data is sent:</strong> Text content, file data, and audio recordings that you upload or record within the app.</li>
+            <li><strong>Who processes it:</strong> Google Gemini 2.0 (Google LLC).</li>
+            <li><strong>User control:</strong> You can enable or disable AI processing at any time in Settings > AI Data & Privacy. A consent dialog is shown before any content is first sent to AI.</li>
+            <li><strong>Data retention:</strong> AI-generated results are stored in your Firebase account. Google processes your data according to their Privacy Policy.</li>
+        </ul>
 
         <h2>8. Data Retention & Deletion</h2>
         <p>Your data is retained for as long as your account is active. You may delete individual clients, meetings, and uploaded content at any time within the App. To delete your entire account and all associated data, please contact us at <a href="mailto:admin@mbas-concepts.com">admin@mbas-concepts.com</a>.</p>
